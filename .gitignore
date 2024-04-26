@@ -1,0 +1,6 @@
+**/*.ipynb_checkpoints/
+.ipynb_checkpoint/
+__pycache__/
+data/
+ckpt/
+*predictions*.csv

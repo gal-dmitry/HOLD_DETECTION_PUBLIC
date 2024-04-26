@@ -1,0 +1,12 @@
+HyperPyYAML
+tqdm
+numpy
+pandas
+matplotlib
+scikit_learn
+seaborn
+datasets
+evaluate
+torch
+accelerate
+transformers==4.31.0
