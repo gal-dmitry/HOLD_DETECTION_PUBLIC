@@ -1,7 +1,7 @@
 # HOLD_DETECTOR_PUBLIC
 
 
-This is a public repository containing the code for the paper "Text-based detection of on-hold scripts in contact center calls". The paper presents a framework for detecting on-hold phrases in client-manager dialogues trinscribed using ASR. 
+This is a public repository containing the code for the paper "Text-based detection of on-hold scripts in contact center calls". The paper presents a framework for detecting on-hold phrases in client-manager dialogues transcribed using ASR. 
 
 - [Experiments](EXPERIMENTS_01.ipynb)
 
