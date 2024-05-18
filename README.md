@@ -37,9 +37,9 @@ python train.py --config_path configs/train/multiclass/multiclass_09.yml
 ### Experiments
 
 This section reports information about provided experiments. Each table row contains:
-- Values of the main metrics
 - Link to the associated metadata folder
 - Name of the associated section in the [IPython notebook](EXPERIMENTS_01.ipynb)
+- Values of the main metrics
 
 Each metadata folder contains the following information:
 - Configuration files:
@@ -49,8 +49,8 @@ Each metadata folder contains the following information:
     - `metrics.png` | contains metrics on validation sets logged across the training process
 - Tables:
     - `val_tr_search_f1.csv` | Metrics:
-        - Per each model and associated validation fold (columns)
-        - Per all unique predicted probability values (rows)
+        - per each model and associated validation fold (columns)
+        - per all unique predicted probability values (rows)
     - `val_metrics_f1.csv` | Metrics:
         - per each model and associated validation fold (columns)
         - per different averaging types (rows):
@@ -65,8 +65,18 @@ Each metadata folder contains the following information:
             - Weighted
 
 
+
 #### Experiment 1. Class weight adjustment.
-///
+
+| Metadata folder | Notebook section name | Class weight | ROC AUC | Best threshold | Recall | Precision | Balanced Accuracy | F1
+|:----------------|:----------------------|-------------:|--------:|---------------:|-------:|----------:|------------------:|---:|
+| 2024_02_23__17_22_36 | `multiclass_02 | 2024_02_23__17_22_36` | `[0.005, 1.0, 1.0]` | 0.9946 | 0.5449 | 0.9135 | 0.8529 | 0.9135 | 0.8778 | | 2024_02_24__08_57_59 | `multiclass_03 | 2024_02_24__08_57_59` | `[0.01, 1.0, 1.0]` | 0.9942 | 0.9791 | 0.8824 | 0.8899 | 0.8824 | 0.8836 |
+| 2024_02_23__15_16_58 | `multiclass_01 | 2024_02_23__15_16_58` | `[0.02, 1.0, 1.0]` | 0.9935 | 0.5092 | 0.9095 | 0.8666 | 0.9095 | 0.8834 | 
+| 2024_02_24__08_59_55 | `multiclass_04 | 2024_02_24__08_59_55` | `[0.05, 1.0, 1.0]` | 0.9939 | 0.9662 | 0.8802 | 0.9002 | 0.8802 | 0.8876 |
+| 2024_02_25__08_20_52 | `multiclass_05 | 2024_02_25__08_20_52` | `[0.075, 1.0, 1.0]` | 0.9931 | 0.9627 | 0.8805 | 0.9063 | 0.8805 | 0.8908 |
+| 2024_02_25__08_21_41 | `multiclass_06 | 2024_02_25__08_21_41` | `[0.1, 1.0, 1.0]` | 0.9931 | 0.9128 | 0.8883 | 0.8927 | 0.8883 | 0.889 | 
+| 2024_02_27__13_28_54 | `multiclass_00 | 2024_02_27__13_28_54` | `[1.0, 1.0, 1.0]` | 0.9943 | 0.3347 | 0.9052 | 0.8706 | 0.9052 | 0.8843 |
+
 
 
 #### Experiment 2. Learning rate adjustment.
