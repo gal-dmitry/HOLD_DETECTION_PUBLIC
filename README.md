@@ -12,9 +12,9 @@ This is a public repository containing code for paper ["Text-based detection of 
 
 - [Configuration files](./configs/train/multiclass)
 
-- [Artefacts](./mlruns/multiclass)
+- [Experiment artefacts](./mlruns/multiclass)
 
-- [Experiments](EXPERIMENTS_01.ipynb)
+- [Experiment reports](EXPERIMENTS_01.ipynb)
 
 
 
@@ -37,9 +37,9 @@ python train.py --config_path configs/train/multiclass/multiclass_09.yml
 ### Experiments
 
 This section reports information about provided experiments. Each table row contains:
-- Values of main metrics
+- Values of the main metrics
 - Link to the associated metadata folder
-- Link to the associated section in the IPython notebook (?!)
+- Name of the associated section in the [IPython notebook](EXPERIMENTS_01.ipynb)
 
 Each metadata folder contains the following information:
 - Configuration files:
@@ -73,10 +73,10 @@ Each metadata folder contains the following information:
 
 | Metadata folder | Notebook section name | Learning rate | ROC AUC | Best threshold | Recall | Precision | Balanced Accuracy | F1 |
 |:----------------|:----------------------|--------------:|--------:|---------------:|-------:|----------:|------------------:|---:|
-| [2024_02_26__10_17_25](https://github.com/gal-dmitry/HOLD_DETECTION_PUBLIC/tree/main/mlruns/multiclass/2024_02_26__10_17_25) | `multiclass_08 / 2024_02_26__10_17_25` | 5.e-7 | 0.9858 | 0.5541 | 0.8126 | 0.8504 | 0.8126 | 0.8185 |
-| [2024_02_26__10_16_38](https://github.com/gal-dmitry/HOLD_DETECTION_PUBLIC/tree/main/mlruns/multiclass/2024_02_26__10_16_38) | `multiclass_07 / 2024_02_26__10_16_38` | 1.e-6 | 0.9925 | 0.8656 | 0.8877 | 0.8985 | 0.8877 | 0.8921 |
-| [2024_02_27__08_31_09](https://github.com/gal-dmitry/HOLD_DETECTION_PUBLIC/tree/main/mlruns/multiclass/2024_02_27__08_31_09) | `multiclass_09 / 2024_02_27__08_31_09` | 3.e-6 | 0.9947 | 0.8422 | 0.9113 | 0.8949 | 0.9113 | 0.9014 |
-| [2024_02_25__08_20_52](https://github.com/gal-dmitry/HOLD_DETECTION_PUBLIC/tree/main/mlruns/multiclass/2024_02_25__08_20_52) | `multiclass_05 / 2024_02_25__08_20_52` | 5.e-6 | 0.9931 | 0.9627 | 0.8805 | 0.9063 | 0.8805 | 0.8908 |
+| [2024_02_26__10_17_25](./mlruns/multiclass/2024_02_26__10_17_25) | `multiclass_08 / 2024_02_26__10_17_25` | 5.e-7 | 0.9858 | 0.5541 | 0.8126 | 0.8504 | 0.8126 | 0.8185 |
+| [2024_02_26__10_16_38](./mlruns/multiclass/2024_02_26__10_16_38) | `multiclass_07 / 2024_02_26__10_16_38` | 1.e-6 | 0.9925 | 0.8656 | 0.8877 | 0.8985 | 0.8877 | 0.8921 |
+| [2024_02_27__08_31_09](./mlruns/multiclass/2024_02_27__08_31_09) | `multiclass_09 / 2024_02_27__08_31_09` | 3.e-6 | 0.9947 | 0.8422 | 0.9113 | 0.8949 | 0.9113 | 0.9014 |
+| [2024_02_25__08_20_52](./mlruns/multiclass/2024_02_25__08_20_52) | `multiclass_05 / 2024_02_25__08_20_52` | 5.e-6 | 0.9931 | 0.9627 | 0.8805 | 0.9063 | 0.8805 | 0.8908 |
 
 
 
