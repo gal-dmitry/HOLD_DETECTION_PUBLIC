@@ -4,7 +4,7 @@
 
 ### Description
 
-This is a public repository containing code for paper ["Text-based detection of on-hold scripts in contact center calls"](https://aircconline.com/abstract/mlaij/11224mlaij01.html). The paper presents a framework for detecting on-hold phrases in client-manager dialogues transcribed using ASR. 
+This is a public repository containing code for paper ["Text-Based Detection of On-Hold Scripts in Contact Center Calls"](https://aircconline.com/abstract/mlaij/11224mlaij01.html). The paper presents a framework for detecting on-hold phrases in client-manager dialogues transcribed using ASR. 
 
 
 
